@@ -6,10 +6,14 @@
 }
 
 .main-container{
-    width: 70%;
+    max-width: 1200px;
     margin: 20px auto;
 }
 
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .mg-1{
     margin-bottom: 30px;
 }
@@ -33,31 +37,22 @@
 
 .header-body{
     background-color: #abcfe7;
+    margin-bottom: 20px;
     height: 100px;/* to be deleted */
 }
 
 /* info-image-section */
 .info-image-section > *{
     float: left;
-}
-.container-body::after{
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.padd-1{
-    padding: 20px 20px 20px 0;
-}
-.sidebar-1{
     width: 25%;
 }
 .main-content{
     width: 50%;
 }
-.sidebar-2{
-    width: 25%;
-    padding-right: 0;
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .contenuto-info{
@@ -68,5 +63,5 @@
 /* FOOTER */
 footer{
     background-color: #8801fe;
-    height: 50px;
+    height: 50px; /* to be deleted */
 }
